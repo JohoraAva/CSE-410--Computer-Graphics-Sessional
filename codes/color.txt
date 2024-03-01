@@ -1,0 +1,20 @@
+ if(cnt>3)
+                    glColor3f((i)*(4/(double)prec),i*(2.5/(double)prec),(j)*(0.3/(double)prec));
+                else if(cnt==1 || cnt==3)
+                     glColor3f(i*0.04,(100-j)*0.06,(i)*0.005); //yellow-greenish
+                    // glColor3f((100-j)*0.07,(100-j)*0.06,(100-i)*0.08);   //white-ish
+                else
+                    // glColor3f((i)*(4/(double)prec),i*(2/(double)prec),(j)*(0.3/(double)prec));
+                // // glColor3f(i*0.03,(100-i)*0.06,(j)*0.5);
+                // // glColor3f((100-j)*0.07,(100-j)*0.06,(100-i)*0.08);   //white-ish
+                // if(cnt%3==1)
+                // // //     glColor3f(1,0,0);
+                // glColor3f((100-j)*0.07,(100-j)*0.06,i*0.08);  
+                //     // glColor3f(i*0.03,(100-i)*0.06,(j)*0.5);  //bluish
+                // else if(cnt%3==2)
+                // //     // glColor3f(0,1,0);
+                    glColor3f(i*0.3,(100-j)*0.6,(100-i)*0.01);  //yellowish
+                // else 
+                //     // glColor3f((100-j)*0.07,(100-j)*0.06,(100-i)*0.08);  
+                // //     // glColor3f(0,0,1);
+                // glColor3f(i*0.04,(100-j)*0.06,(i)*0.005); //yellow-greenish
